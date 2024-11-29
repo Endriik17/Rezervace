@@ -15,3 +15,4 @@ Všechny rezervace se ukládají do souboru .JSON, který data udřzuje a nechá
 Na spuštění stránky na lokálním počítači je potřeba mít program XAMPP a v něm puštěný Apache (server pro webové stránky), na stránku se dostaneme pomocí adresy localhost
 
 Made by Martin Boháč
+![preview](https://github.com/user-attachments/assets/79f23ff0-3d0e-4ae9-95b6-aef7e80f0b01)
