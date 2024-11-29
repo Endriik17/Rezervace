@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "nazevmist": "Ateli\u00e9r 1",
+        "jmeno": "Jan",
+        "prijmeni": "Nov\u00e1k",
+        "datum": "12. 01. 2024",
+        "casod": "15:55",
+        "casdo": "16:15"
+    },
+    {
+        "id": 2,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "30. 11. 2024",
+        "casod": "23:19",
+        "casdo": "23:20"
+    },
+    {
+        "id": 4,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": null,
+        "casod": "23:32",
+        "casdo": "23:34"
+    },
+    {
+        "id": 5,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": null,
+        "casod": "23:32",
+        "casdo": "23:34"
+    },
+    {
+        "id": 7,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "",
+        "casod": "23:32",
+        "casdo": "23:34"
+    },
+    {
+        "id": 8,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "m",
+        "prijmeni": "b",
+        "datum": "30. 11. 2024",
+        "casod": "02:33",
+        "casdo": "04:42"
+    },
+    {
+        "id": 9,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "m",
+        "prijmeni": "b",
+        "datum": "30. 11. 2024",
+        "casod": "02:33",
+        "casdo": "04:42"
+    },
+    {
+        "id": 10,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "",
+        "casod": "23:43",
+        "casdo": "23:44"
+    },
+    {
+        "id": 11,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "",
+        "casod": "23:43",
+        "casdo": "23:44"
+    },
+    {
+        "id": 12,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "",
+        "casod": "23:45",
+        "casdo": "23:46"
+    },
+    {
+        "id": 13,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "",
+        "casod": "23:46",
+        "casdo": "23:49"
+    },
+    {
+        "id": 14,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "01. 12. 2024",
+        "casod": "00:03",
+        "casdo": "00:04"
+    },
+    {
+        "id": 15,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "01. 12. 2024",
+        "casod": "00:03",
+        "casdo": "00:04"
+    },
+    {
+        "id": 16,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "01. 12. 2024",
+        "casod": "00:03",
+        "casdo": "00:04"
+    },
+    {
+        "id": 17,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "01. 12. 2024",
+        "casod": "00:06",
+        "casdo": "00:10"
+    },
+    {
+        "id": 18,
+        "nazevmist": "Konferen\u010dn\u00ed m\u00edstnost 1",
+        "jmeno": "Martin",
+        "prijmeni": "Boh\u00e1\u010d",
+        "datum": "01. 12. 2024",
+        "casod": "00:06",
+        "casdo": "00:10"
+    }
+]
