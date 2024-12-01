@@ -12,7 +12,7 @@ Seznam rezervací najdete v navigaci na hlavní stránce, po prokliknutí vysko�
 Všechny rezervace se ukládají do souboru .JSON, který data udřzuje a nechává php s nimi pracovat.
 ! V případě, že vám stránka nevyskočí nebo vypíše error, prvně se ujistěte, že máte všechny potřebné soubory stažené.
 
-Na spuštění stránky na lokálním počítači je potřeba mít program XAMPP a v něm puštěný Apache (server pro webové stránky), na stránku se dostaneme pomocí adresy localhost/kody/rezervace.php
+Na spuštění stránky na lokálním počítači je potřeba mít program XAMPP a v něm puštěný Apache (server pro webové stránky), na stránku se dostaneme pomocí adresy odkazu localhost/kody/rezervace.php
 
 Made by Martin Boháč
 
