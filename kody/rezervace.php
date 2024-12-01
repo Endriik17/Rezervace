@@ -318,23 +318,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['idsmazat'])) {
         $rezervace = json_decode($dataslozky, true);
         
         if (is_array($rezervace)) {
-            $rezervace = array_filter($rezervace, function ($rezervacex) use ($idsmazat) {
-                return !(isset($rezervacex['id']) && $rezervacex['id'] === $idsmazat)
-                echo "<br><div class='zpravaW'>Rezervace s $idsmazat neexistuje.</div>";
-            });
+            $idExistuje = false;
+                foreach ($rezervace as $rezervacex) {
+                    if (isset($rezervacex['id']) && $rezervacex['id'] === $idsmazat) {
+                        $idExistuje = true;
+                        break;
+                    }
+                }
+            if ($idExistuje) {
+                $rezervace = array_filter($rezervace, function ($rezervacex) use ($idsmazat) {
+                    return $rezervacex['id'] !== $idsmazat;
+                });
             $rezervace = array_values($rezervace);
 
             file_put_contents($slozka, json_encode(array_values($rezervace), JSON_PRETTY_PRINT));
+            if($idsmazat>0) {
                 echo "<div class='zprava'>Rezervace s ID $idsmazat byla úspěšně zrušena.</div>";
             } else {
                 echo "<div class='zpravaW'>ID rezervace musí být větší než nula.</div>";
             }
         } else {
-            echo "Chyba při čtení dat.";
+            echo "<div class='zpravaW'>Chyba při čtení dat.</div>";
         }
     } else {
-        echo "Soubor rezervací neexistuje.";
+        echo "<div class='zpravaW'>Soubor rezervací neexistuje.</div>";
     }
+}
 }
 ?>
 <footer>
