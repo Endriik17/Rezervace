@@ -319,12 +319,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['idsmazat'])) {
         
         if (is_array($rezervace)) {
             $rezervace = array_filter($rezervace, function ($rezervacex) use ($idsmazat) {
-                return $rezervacex['id'] !== $idsmazat;
+                return !(isset($rezervacex['id']) && $rezervacex['id'] === $idsmazat)
+                echo "<br><div class='zpravaW'>Rezervace s $idsmazat neexistuje.</div>";
             });
             $rezervace = array_values($rezervace);
 
             file_put_contents($slozka, json_encode(array_values($rezervace), JSON_PRETTY_PRINT));
-            if($idsmazat>0) {
                 echo "<div class='zprava'>Rezervace s ID $idsmazat byla úspěšně zrušena.</div>";
             } else {
                 echo "<div class='zpravaW'>ID rezervace musí být větší než nula.</div>";
@@ -348,8 +348,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['idsmazat'])) {
             <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">Ochrana osobních údajů</a>
             </div>
             <div id="vpravo">
-            <p>&copy; Martin Boháč, 2024</p>
-            <p>Design Martin Boháč</p>
+            <p>&copy; 2024, Martin Boháč</p>
+            <p>Design: Martin Boháč</p>
             </div>
     </div>
 </footer>
