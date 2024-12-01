@@ -5,7 +5,7 @@ Systém napsaný v programovacím jazyce php s přídavky dalších jazyků fung
 ! Systém umožňuje rezervovat místnosti až na druhý den, nelze si rezervovat místnost ve stejný den jako vyplňujete rezervaci.
 Programovací jazyky: PHP, HTML, CSS
 Databáze: rezervace.json
-Soubory potřebné k funčknosti stránky: https://github.com/Endriik17/Rezervace
+Soubory potřebné k funkčnosti stránky: https://github.com/Endriik17/Rezervace
 
 Na hlavní stránce (tzn. rezervace.php) naleznete formuláře na rezervaci a zrušení rezervace, kam se zadává ID rezervace.
 Seznam rezervací najdete v navigaci na hlavní stránce, po prokliknutí vyskočí stránka s tabulkou, ve které jsou zapsané všechny rezervace.
