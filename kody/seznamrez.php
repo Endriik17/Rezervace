@@ -180,8 +180,8 @@ if (!empty($rezervace)):
         <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">Ochrana osobních údajů</a>
         </div>
         <div id="vpravo">
-        <p>&copy; Martin Boháč, 2024</p>
-        <p>Design Martin Boháč</p>
+        <p>&copy; 2024, Martin Boháč</p>
+        <p>Design: Martin Boháč</p>
         </div>
     </div>   
 </footer>
