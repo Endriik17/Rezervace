@@ -338,7 +338,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['idsmazat'])) {
                 echo "<div class='zpravaW'>ID rezervace musí být větší než nula.</div>";
             }
         } else {
-            echo "<div class='zpravaW'>Chyba při čtení dat.</div>";
+            echo "<div class='zpravaW'>Rezervace s ID $idsmazat neexistuje.</div>";
         }
     } else {
         echo "<div class='zpravaW'>Soubor rezervací neexistuje.</div>";
