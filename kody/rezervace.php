@@ -133,6 +133,7 @@
             width: 100%;
             background-image: url("../obrazky/footer.jpg");
             position: relative;
+            text-align: center;
         }
         footer a {
             color: #cccccc;
